@@ -17,6 +17,7 @@ public class Task
     public string Description {get;set;}
     public Priority TaskPriority {get;set;}
     public DateTime CreationDate {get;set;}
+    public string Participants {get;set;}
     public virtual Category Category {get;set;}
 
     //[NotMapped]
